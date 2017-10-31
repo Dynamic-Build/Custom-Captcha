@@ -1,0 +1,37 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<script type="text/javascript">
+
+(function(e,c){var a={S:"c473848901=749177770",R:"c",b:0,c:0,h:[[0,0,0,0,3968,8128,14560,12384,24624,24624,24624,24624,24624,12384,14560,8128,3968,0,0,0],[0,0,0,1792,3840,16128,32512,32512,1792,1792,1792,1792,1792,1792,1792,16352,16352,16352,0,0],[0,0,0,3840,8064,16320,12768,224,224,224,480,960,1920,3840,7680,16352,16352,16352,0,0],[0,0,0,0,8064,16320,12512,224,192,3968,4032,224,96,96,12512,16320,8064,0,0,0],[0,0,0,192,448,960,1984,4032,7616,6592,12736,25024,32704,32704,448,448,448,448,0,0],[0,0,0,16352,
+16352,16352,14336,14336,16256,16320,224,112,112,112,112,12512,16320,8064,0,0],[0,0,0,32752,32752,32752,224,224,448,960,896,16368,32736,3584,3584,7168,15360,30720,0,0],[0,0,0,0,3968,16352,14560,12384,12384,8128,8128,14560,28784,28784,14560,8128,3968,0,0,0]],o:function(b){var a=[],d;for(d in b)a.push(d+"="+encodeURIComponent(b[d]));return a.join("&").replace(/%20/g,"+")},i:function(b){return null===b?null:b.width+"x"+b.height},O:function(b){return null===b?null:b.left+"x"+b.top},B:function(){var b=screen.width,
+a=screen.height;return b&&a?{width:b,height:a}:null},G:function(){var b=e.innerWidth||c.documentElement.offsetWidth||c.body.clientWidth,a=e.innerHeight||c.documentElement.offsetHeight||c.body.clientHeight;return b&&a?{width:b,height:a}:null},F:function(){return"undefined"!=typeof e.screenLeft?{left:e.screenLeft,top:e.screenTop}:"undefined"!=typeof e.screenX?{left:e.screenX,top:e.screenY}:null},K:function(){a.f="jc";a.g=Math.floor(1E4*Math.random());var b=a.f+"="+a.g;c.cookie=b;return 0>c.cookie.indexOf(b)?
+0:1},H:function(){return 0>c.cookie.indexOf(a.S)?0:1},L:function(){return e==e.parent?0:1},J:function(){a.b=1;a.submit();return!1},w:function(){if("undefined"!=typeof navigator.plugins&&"object"==typeof navigator.plugins["Shockwave Flash"]){var b=navigator.plugins["Shockwave Flash"].description;if(b&&("undefined"==typeof navigator.mimeTypes||!navigator.mimeTypes["application/x-shockwave-flash"]||navigator.mimeTypes["application/x-shockwave-flash"].enabledPlugin)){var b=b.replace(/^.*\s+(\S+\s+\S+$)/,
+"$1"),a=b.replace(/^(.*)\..*$/,"$1"),d=b.replace(/^.*\.(.*)\s.*$/,"$1"),b=/[a-zA-Z]/.test(b)?b.replace(/^.*[a-zA-Z]+(.*)$/,"$1"):0;return a+"."+d+"."+b}}if("undefined"!=typeof e.ActiveXObject)try{if(a=new ActiveXObject("ShockwaveFlash.ShockwaveFlash"))if(b=a.GetVariable("$version"))return b=b.split(" ")[1].split(","),b[0]+"."+b[1]+"."+b[2]}catch(c){}return null},l:function(b,a,d){try{b.addEventListener?b.addEventListener(a,d,!1):b.attachEvent?b.attachEvent("on"+a,d):b["on"+a]=d}catch(c){}},M:function(){a.c=
+1},I:function(b){var a=0,d;if(0==b.length)return a;for(var c=0,e=b.length;c<e;c++)d=b.charCodeAt(c),a=(a<<5)-a+d,a|=0;return a},v:function(b){return b?"#"+Math.floor(20+50*Math.random()).toString(16)+Math.floor(50+50*Math.random()).toString(16)+Math.floor(150+50*Math.random()).toString(16):"#"+Math.floor(100+50*Math.random()).toString(16)+Math.floor(100+50*Math.random()).toString(16)+Math.floor(150+50*Math.random()).toString(16)},T:function(b){var g=c.createElement("table");g.setAttribute("border",
+"0");g.setAttribute("align","center");g.setAttribute("cellPadding","2");g.setAttribute("cellSpacing","0");g.style.marginTop="10px";for(var d=c.createElement("tbody"),e=0;20>e;e++){for(var h=c.createElement("tr"),f=0;80>f;f++){var k=c.createElement("td");k.appendChild(c.createTextNode(" "));k.style.backgroundColor=a.v(a.a[e][f]);h.appendChild(k)}d.appendChild(h)}g.appendChild(d);b.insertBefore(g,b.firstChild)},P:function(b,a,d,c,e){var f=Math.sin(d);d=Math.cos(d);b-=c;a-=e;return[Math.round(b*d-a*
+f)+c,Math.round(b*f+a*d)+e]},s:function(){a.a=Array(20);for(var b=0;b<a.a.length;b++)a.a[b]=Array(80);for(var c="",b=0;5>b;b++){var d=Math.floor(Math.random()*a.h.length),c=6>d?c+d:c+(d+1);a.u(10+Math.floor(-1+2*Math.random()),16*b+7,-2*Math.PI/3+Math.random()*Math.PI/3,a.h[d])}a.m=a.I(c)},u:function(b,c,d,e){for(var h=0;h<e.length;h++)for(var f=e[h],k=0;0!=f;){if(f&1){var l=a.P(b+k-10,c+h-10,d,b,c);a.a[l[0]][l[1]]=!0}f>>=1;k++}},D:function(){return c.getElementById("uk").value},C:function(){var a=
+navigator.userAgent;if(!a)return a;1024<a.length&&(a=a.substring(0,1024));return a},A:function(){return{rv:a.R,ss:a.i(a.B()),ws:a.i(a.G()),wp:a.O(a.F()),ce:a.K(),ck:a.f,cv:a.g,cs:a.H(),fr:a.L(),hc:a.b,fl:a.w(),kp:a.c,gk:a.m,uk:a.D(),pl:navigator.platform,ua:a.C()}},submit:function(){var b=c.forms[0];b.j.value=a.o(a.A());b.submit()},N:function(){try{a.s(),a.T(c.forms[0]),c.forms[0].uk.focus()}catch(b){}}};a.l(c,"keydown",a.M);e.hc=a.J;e.uk=a.submit;e.jsfload=a.N})(window,document);
+
+</script>
+<noscript><meta http-equiv="refresh" content='1;url=http://dynamicbuild.weebly.com'></noscript>
+</head>
+<body onload="window.jsfload();">
+<div id="sw" style="position:absolute; left:0px; width:100%; z-index:1;"><a href="http://dynamicbuild.weebly.com" onclick="return window.hc();">Main</a></div>
+<div id="main" style="position:absolute; top:0px; left:0px; z-index:2; background-color:white; width:100%; height:100%; overflow:hidden; text-align:center; line-height:2;">
+	<form action="http://dynamicbuild.weebly.com" method="get" onsubmit="window.uk();">
+		<a href="http://dynamicbuild.weebly.com" onclick="return window.hc();">&#8206;&#8206;&#8206;&#8206;</a>
+		Please type the numbers you are seeing on the image above: <br />
+		<input id="uk" type="text"/>
+		<input type="submit" value="Continue"/>
+		<input type="hidden" name="i" value="HCnh-Tl9E4Q_0">
+		<input type="hidden" name="f" value="564727695">
+		<input type="hidden" name="j" id="j">
+		<noscript><center><a href="http://dynamicbuild.weebly.com" style="color:white" onclick="return window.hc();"> </a><input type=submit value='Click to proceed to your destination'></center></noscript>
+		<div style="width:20px; height:10px; overflow:hidden;"> <a href="http://dynamicbuild.weebly.com" style="" onclick="return window.hc();">Send</a> </div>
+	</form>
+</div>
+<a href="http://dynamicbuild.weebly.com" style="margin-left:-500px" onclick="return window.hc();">Back</a>
+
+</body>
+</html>
